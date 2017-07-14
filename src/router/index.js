@@ -14,7 +14,7 @@ import PublicWorks from '@/components/pages/PublicWorks'
 
 
 export default new Router({
-	mode: 'history',
+	// mode: 'history',
 	routes: [
 		{
 			path: '/',

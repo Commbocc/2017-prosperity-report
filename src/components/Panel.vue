@@ -18,9 +18,7 @@
 						</span>
 					</div>
 					<div class="col-sm-2 col-md-2 vertical-align li-graphic">
-						<span>
-							<img :src="panel.icon" alt="" class="img-responsive center-block">
-						</span>
+						<img :src="panel.icon" alt="" class="img-responsive center-block">
 					</div>
 				</div>
 
@@ -56,6 +54,7 @@ export default {
 }
 
 .li-graphic img {
+	width: 100%;
 	max-width: 100%;
 }
 
@@ -68,7 +67,7 @@ export default {
 		text-align: center;
 	}
 	.li-graphic img {
-		max-width: 30%
+		max-width: 30%;
 	}
 
 	.li-number {
@@ -97,6 +96,11 @@ export default {
 		line-height: 120px;
 	}
 	.vertical-align > span {
+		display: inline-block;
+		vertical-align: middle;
+		line-height: normal;
+	}
+	.vertical-align > img {
 		display: inline-block;
 		vertical-align: middle;
 		line-height: normal;

@@ -2,11 +2,11 @@
 	<div id="app" class="container">
 
 		<div class="page-header">
-			<router-link :to="{ name: 'Home' }">
+			<a href="./">
 				<p>
 					<img src="./assets/logo.png" class="img-responsive center-block">
 				</p>
-			</router-link>
+			</a>
 			<p class="text-center">
 				{{ $store.state.pageSubheading }}
 			</p>
