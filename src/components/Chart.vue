@@ -1,6 +1,8 @@
 <template lang="html">
 	<div class="">
 
+		<hr class="visible-xs-block">
+
 		<h4>% of Departmental Budget</h4>
 
 		<canvas @click.prevent="goToLink" id="myChart" width="100%" height="100%"></canvas>
