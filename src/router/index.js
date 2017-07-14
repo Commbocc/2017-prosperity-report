@@ -6,13 +6,6 @@ import store from '@/store'
 import Home from '@/components/Home'
 import PanelShow from '@/components/PanelShow'
 
-import EconDev from '@/components/pages/EconDev'
-import FireRescue from '@/components/pages/FireRescue'
-import Conservation from '@/components/pages/Conservation'
-import Social from '@/components/pages/Social'
-import PublicWorks from '@/components/pages/PublicWorks'
-
-
 export default new Router({
 	// mode: 'history',
 	routes: [
@@ -29,8 +22,7 @@ export default new Router({
 			},
 			children: [{
 				path: '/',
-				name: 'EconDev',
-				component: EconDev,
+				name: 'EconDev'
 			}]
 		},
 		{
@@ -41,8 +33,7 @@ export default new Router({
 			},
 			children: [{
 				path: '/',
-				name: 'FireRescue',
-				component: FireRescue,
+				name: 'FireRescue'
 			}]
 		},
 		{
@@ -53,8 +44,7 @@ export default new Router({
 			},
 			children: [{
 				path: '/',
-				name: 'Conservation',
-				component: Conservation,
+				name: 'Conservation'
 			}]
 		},
 		{
@@ -65,8 +55,7 @@ export default new Router({
 			},
 			children: [{
 				path: '/',
-				name: 'Social',
-				component: Social,
+				name: 'Social'
 			}]
 		},
 		{
@@ -77,8 +66,7 @@ export default new Router({
 			},
 			children: [{
 				path: '/',
-				name: 'PublicWorks',
-				component: PublicWorks,
+				name: 'PublicWorks'
 			}]
 		},
 		{

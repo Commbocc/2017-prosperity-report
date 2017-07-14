@@ -51,7 +51,6 @@ export default {
 					},
 					{
 						title: "Total Salaries for Providing Services",
-						note: "Including Grant Funded Salaries",
 						value: "$1,241,085.20"
 					},
 					{
@@ -118,7 +117,6 @@ export default {
 					},
 					{
 						title: "Total Salaries for Providing Services",
-						note: "Including Grant Funded Salaries",
 						value: "$113,239,816.00"
 					},
 					{
@@ -190,7 +188,6 @@ export default {
 					},
 					{
 						title: "Total Salaries for Providing Services",
-						note: "Including Grant Funded Salaries",
 						value: "$6,569,338.00"
 					},
 					{
@@ -255,7 +252,6 @@ export default {
 					},
 					{
 						title: "Total Salaries for Providing Services",
-						note: "Including Grant Funded Salaries",
 						value: "$1,396,041.00"
 					},
 					{
