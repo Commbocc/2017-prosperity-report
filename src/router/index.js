@@ -14,6 +14,7 @@ import PublicWorks from '@/components/pages/PublicWorks'
 
 
 export default new Router({
+	mode: 'history',
 	routes: [
 		{
 			path: '/',
@@ -84,5 +85,8 @@ export default new Router({
 			path: '*',
 			component: Home
 		}
-	]
+	],
+	scrollBehavior (to, from, savedPosition) {
+		return { x: 0, y: 0 }
+	}
 })

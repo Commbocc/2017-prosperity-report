@@ -12,6 +12,8 @@
   },
   "dependencies": {
     "babel-polyfill": "^6.23.0",
+    "bootstrap-block-grid": "^1.1.7",
+    "chart.js": "^2.6.0",
     "vue": "^2.3.3",
     "vue-router": "^2.6.0"
   },
