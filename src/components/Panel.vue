@@ -55,6 +55,10 @@ export default {
 	position: relative;
 }
 
+.li-graphic img {
+	max-width: 100%;
+}
+
 .li-title {
 	color: #231f20 !important;
 }
