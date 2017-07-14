@@ -36,7 +36,7 @@
 
 		<div class="row">
 			<div class="col-sm-10 col-sm-offset-1">
-				<div class="block-grid-sm-2">
+				<div class="block-grid-xs-1 block-grid-sm-2">
 					<div v-for="ss in panel.serviceStats" class="text-center">
 						<p class="h3">
 							{{ ss.title }}
