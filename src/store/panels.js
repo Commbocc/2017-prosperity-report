@@ -69,7 +69,8 @@ export default {
 				totalBudget: "$9,311,272.00",
 				totalBudgetPercent: 23,
 				totalBudgetNote: "",
-				footer: "Utilization of MBE and SBE Firms in County Contracts (FY16: 17.1%; FY17: 17.5%; FY18: 18%)"
+				footer: "Utilization of MBE and SBE Firms in County Contracts (FY16: 17.1%; FY17: 17.5%; FY18: 18%)",
+				budgetPageNumber: 249
 			},
 			{
 				index: 2,
@@ -141,7 +142,8 @@ export default {
 				totalBudget: "$148,307,104.00",
 				totalBudgetPercent: 91,
 				totalBudgetNote: "Indirects as Reflected in the FY18 Budget: <strong>$6,997,053.00</strong>",
-				footer: "1) 1st on scene, Urban, Fire 90% of the time in under 6 minutes (FY16: 53.61%; FY17: 52.12%) / 2) 1st on scene, Suburban, Fire 90% of the time in under 7 minutes (FY16: 52.82%; FY17: 51.48%) / 3) 1st on scene, Rural, Fire 90% of the time in under 10 minutes FY16: 66.38%; FY17: 62.58%) / 4) 1 st ALS unit on scene within 7 minutes 90% of the time (FY16: 60.29%; FY17: 58.0%) / 5) 1 st ALS transport on scene within 9 minutes 90% of the time (FY16: 78.37%; FY17: 78.28%)"
+				footer: "1) 1st on scene, Urban, Fire 90% of the time in under 6 minutes (FY16: 53.61%; FY17: 52.12%) / 2) 1st on scene, Suburban, Fire 90% of the time in under 7 minutes (FY16: 52.82%; FY17: 51.48%) / 3) 1st on scene, Rural, Fire 90% of the time in under 10 minutes FY16: 66.38%; FY17: 62.58%) / 4) 1 st ALS unit on scene within 7 minutes 90% of the time (FY16: 60.29%; FY17: 58.0%) / 5) 1 st ALS transport on scene within 9 minutes 90% of the time (FY16: 78.37%; FY17: 78.28%)",
+				budgetPageNumber: 258
 
 			},
 			{
@@ -207,7 +209,8 @@ export default {
 				totalBudget: "$13,574,297.00",
 				totalBudgetPercent: 62,
 				totalBudgetNote: "Indirects as Reflected in the FY18 Budget: <strong>$96,341.00</strong>",
-				footer: "Cost recovery of 25% through revenue generation. FY16 Actual 28.8%, FY17 Planned 29%, FY18 Projected 25%"
+				footer: "Cost recovery of 25% through revenue generation. FY16 Actual 28.8%, FY17 Planned 29%, FY18 Projected 25%",
+				budgetPageNumber: 235
 
 			},
 			{
@@ -276,7 +279,8 @@ export default {
 				totalBudget: "$11,748,528.00",
 				totalBudgetPercent: 22,
 				totalBudgetNote: null,
-				footer: null
+				footer: null,
+				budgetPageNumber: 309
 
 			},
 			{
@@ -333,7 +337,8 @@ export default {
 				totalBudget: "$123,988,909.20",
 				totalBudgetPercent: 16,
 				totalBudgetNote: null,
-				footer: null
+				footer: null,
+				budgetPageNumber: 303
 
 			}
 		]

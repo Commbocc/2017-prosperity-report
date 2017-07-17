@@ -11,6 +11,7 @@ export default new Vuex.Store({
 	state: {
 		pageTitle: 'Prosperity Report',
 		pageDescription: 'The County has identified five strategic outcomes, illustrated below, that together will achieve the ultimate goal of building prosperity for individuals and the community, while providing stellar customer service and satisfaction that contribute to a positive quality of life.',
-		pageSubheading: 'County Administrator’s Recommended Budget FY 18/19'
+		pageSubheading: 'County Administrator’s Recommended Budget FY 18/19',
+		issuuConfigId: '30190187/51252149'
 	}
 })

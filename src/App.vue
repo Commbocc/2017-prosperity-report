@@ -20,12 +20,19 @@
 			</div>
 		</div>
 
+		<modal></modal>
+
 	</div>
 </template>
 
 <script>
+import Modal from '@/components/Modal'
+
 export default {
-	name: 'app'
+	name: 'app',
+	components: {
+		'modal': Modal
+	}
 }
 </script>
 

@@ -94,7 +94,9 @@
 			</div>
 
 			<div class="col-sm-4 text-center">
-				<chart :percent="panel.totalBudgetPercent"></chart>
+
+				<chart :percent="panel.totalBudgetPercent" :doc-page-number="panel.budgetPageNumber"></chart>
+
 			</div>
 		</div>
 

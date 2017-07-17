@@ -1,11 +1,10 @@
 <template lang="html">
 	<div class="">
-
 		<hr class="visible-xs-block">
 
-		<h4>% of Departmental Budget</h4>
+		<h4>% of <a href="#" @click.prevent="openBudgetDoc">Departmental Budget</a></h4>
 
-		<canvas @click.prevent="goToLink" id="myChart" width="100%" height="100%"></canvas>
+		<canvas @click.prevent="openBudgetDoc" id="myChart" width="100%" height="100%"></canvas>
 	</div>
 </template>
 
@@ -14,10 +13,15 @@ import Chart from 'chart.js'
 
 export default {
 	name: 'chart',
-	props: ['percent', 'link'],
+	props: ['percent', 'docPageNumber'],
 	methods: {
+		openBudgetDoc () {
+			if (this.docPageNumber) {
+				$('#issuuModal').modal('show')
+				window.IssuuReaders.get(this.$store.state.issuuConfigId).setPageNumber(this.docPageNumber)
+			}
+		},
 		intiChart () {
-
 			Chart.defaults.global.tooltips.enabled = false;
 
 			var ctx = document.getElementById("myChart").getContext('2d');
@@ -50,11 +54,6 @@ export default {
 					}
 				},
 			});
-		},
-		goToLink () {
-			if (this.link) {
-				window.open(this.link, '_blank')
-			}
 		}
 	},
 	mounted () {
