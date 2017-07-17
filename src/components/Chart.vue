@@ -2,7 +2,12 @@
 	<div class="">
 		<hr class="visible-xs-block">
 
-		<h4>% of <a href="#" @click.prevent="openBudgetDoc">Departmental Budget</a></h4>
+		<h4>
+			% of <a href="#" @click.prevent="openBudgetDoc">Departmental Budget</a>
+			<small>
+				(page {{ docPageNumber }})
+			</small>
+		</h4>
 
 		<canvas @click.prevent="openBudgetDoc" id="myChart" width="100%" height="100%"></canvas>
 	</div>
