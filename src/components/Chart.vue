@@ -9,7 +9,7 @@
 			</small>
 		</h4>
 
-		<canvas @click.prevent="openBudgetDoc" id="myChart" width="100%" height="100%"></canvas>
+		<canvas @click.prevent="openBudgetDoc" :id="chartId" class="chart" width="100%" height="100%"></canvas>
 	</div>
 </template>
 
@@ -18,7 +18,12 @@ import Chart from 'chart.js'
 
 export default {
 	name: 'chart',
-	props: ['percent', 'docPageNumber'],
+	props: ['service', 'percent', 'docPageNumber'],
+	computed: {
+		chartId () {
+			return this.service.serviceHeading.replace(/[^0-9a-zA-Z]/g, '')
+		}
+	},
 	methods: {
 		openBudgetDoc () {
 			if (this.docPageNumber) {
@@ -29,7 +34,7 @@ export default {
 		intiChart () {
 			Chart.defaults.global.tooltips.enabled = false;
 
-			var ctx = document.getElementById("myChart").getContext('2d');
+			var ctx = document.getElementById(`${this.chartId}`).getContext('2d');
 
 			var myChart = new Chart(ctx, {
 				type: 'doughnut',
@@ -68,7 +73,7 @@ export default {
 </script>
 
 <style lang="css">
-#myChart {
+.chart {
 	cursor: pointer;
 }
 </style>

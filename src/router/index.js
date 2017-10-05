@@ -15,58 +15,58 @@ export default new Router({
 			component: Home
 		},
 		{
-			path: '/economic-development',
+			path: '/local-economy',
 			component: PanelShow,
 			props: {
 				panel: store.state.panels.index[0]
 			},
 			children: [{
 				path: '/',
-				name: 'EconDev'
+				name: 'LocalEconomy'
 			}]
 		},
 		{
-			path: '/fire-rescue',
+			path: '/public-safety',
 			component: PanelShow,
 			props: {
 				panel: store.state.panels.index[1]
 			},
 			children: [{
 				path: '/',
-				name: 'FireRescue'
+				name: 'PublicSafety'
 			}]
 		},
 		{
-			path: '/conservation-environmental-land-management',
+			path: '/life-enrichment',
 			component: PanelShow,
 			props: {
 				panel: store.state.panels.index[2]
 			},
 			children: [{
 				path: '/',
-				name: 'Conservation'
+				name: 'LifeEnrichment'
 			}]
 		},
 		{
-			path: '/social-services',
+			path: '/individuals-families',
 			component: PanelShow,
 			props: {
 				panel: store.state.panels.index[3]
 			},
 			children: [{
 				path: '/',
-				name: 'Social'
+				name: 'IndividualsFamilies'
 			}]
 		},
 		{
-			path: '/public-works',
+			path: '/community-assets',
 			component: PanelShow,
 			props: {
 				panel: store.state.panels.index[4]
 			},
 			children: [{
 				path: '/',
-				name: 'PublicWorks'
+				name: 'CommunityAssets'
 			}]
 		},
 		{
