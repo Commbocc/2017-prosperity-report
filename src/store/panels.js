@@ -28,7 +28,7 @@ export default {
 								],
 								serviceStats: [
 									{
-										title: "Actual Units of service provided in FY16",
+										title: "Actual Units of Service provided in FY16",
 										value: "$2,095,635.20"
 									},
 									{
@@ -101,7 +101,7 @@ export default {
 								],
 								serviceStats: [
 									{
-										title: "Actual Units of service provided in FY16",
+										title: "Actual Units of Service provided in FY16",
 										value: "103,433"
 									},
 									{
@@ -172,7 +172,7 @@ export default {
 								],
 								serviceStats: [
 									{
-										title: "Actual Units of service provided in FY16",
+										title: "Actual Units of Service provided in FY16",
 										value: "33,733",
 										note: "Completed Animal Control Officer Cases"
 									},
@@ -182,7 +182,7 @@ export default {
 									},
 									{
 										title: "Projected Units of Service provided in FY18",
-										value: "35,419.65",
+										value: "35,420",
 										note: "5% increase"
 									},
 									{
@@ -236,7 +236,7 @@ export default {
 								],
 								serviceStats: [
 									{
-										title: "Actual Units of service provided in FY16",
+										title: "Actual Units of Service provided in FY16",
 										value: "107,000",
 										note: "Licenses Sold"
 									},
@@ -278,7 +278,7 @@ export default {
 									// 	value: "$78,000.00"
 									// },
 									{
-										title: "Cost per Emergency Call Response",
+										title: "Cost per License issued",
 										// note: "excludes pass thru costs \"Grants & Aids\"",
 										value: "$6.28"
 									},
@@ -317,7 +317,7 @@ export default {
 								],
 								serviceStats: [
 									{
-										title: "Actual Units of service provided in FY16",
+										title: "Actual Units of Service provided in FY16",
 										value: "80,336"
 									},
 									{
@@ -381,7 +381,7 @@ export default {
 								],
 								serviceStats: [
 									{
-										title: "Actual Units of service provided in FY16",
+										title: "Actual Units of Service provided in FY16",
 										value: "15,620",
 										note: "Medical Cost Per Animal"
 									},
@@ -445,7 +445,7 @@ export default {
 								],
 								serviceStats: [
 									{
-										title: "Actual Units of service provided in FY16",
+										title: "Actual Units of Service provided in FY16",
 										value: "12,917",
 										note: "Adoptions"
 									},
@@ -527,7 +527,7 @@ export default {
 								],
 								serviceStats: [
 									{
-										title: "Actual Units of service provided in FY16",
+										title: "Actual Units of Service provided in FY16",
 										value: "5,873"
 									},
 									{
@@ -604,7 +604,7 @@ export default {
 								],
 								serviceStats: [
 									{
-										title: "Actual Units of service provided in FY16",
+										title: "Actual Units of Service provided in FY16",
 										value: "144",
 										note: "Lane Miles of Road"
 									},
